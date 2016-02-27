@@ -2,6 +2,23 @@
 
 A **Locale Module** is a translation file in which all properties and translations are scoped locally by default. 
 
+## Why?
+
+modular and reusable translations
+
+ - No more conflicts
+ - Explicit dependencies
+ - No global scope
+ 
+additional features
+
+ - Automatic extraction of the translations
+ - Information about missing translations across languages (one module)
+ - Default translation (loader can always merge default and current language)
+ - Nested translations
+ 
+## Example
+
 ```js
 /* ./locale/en_US.js */
 export default {
@@ -39,20 +56,12 @@ export default class Example extends Component {
 
 For local path camelCase naming is recommended, but not enforced.
 
-## Why?
+## Dependencies
 
-modular and reusable translations
+It's possible to compose translation from other Locale Modules.
 
- - No more conflicts
- - Explicit dependencies
- - No global scope
- 
-additional features
+Example will be here soon
 
- - Automatic extraction of the translations
- - Information about missing translations across languages (one module)
- - Default translation (loader can always merge default and current language)
- - Nested translations
  
 ## Implementation
 
