@@ -46,7 +46,13 @@ modular and reusable translations
  - No more conflicts
  - Explicit dependencies
  - No global scope
+ 
+additional features
+
  - Automatic extraction of the translations
+ - Information about missing translations across languages (one module)
+ - Default translation (loader can always merge default and current language)
+ - Nested translations
  
 ## Implementation
 
