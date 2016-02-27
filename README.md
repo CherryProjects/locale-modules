@@ -51,6 +51,6 @@ modular and reusable translations
 ## Implementation
 
 The main idea is very similar to [CSS Modules](https://github.com/css-modules/css-modules). 
-We already implemented webpack plugin for the locales modules named [translate-maker-loader](https://github.com/CherryProjects/translate-maker-loader) which is able to use on the server too with [babel-plugin-webpack-loaders](https://github.com/istarkov/babel-plugin-webpack-loaders).
-This loader also contains locale extractor (plugin) which will extract all translations into the locale files. You can load this files with the adapter of the [translate-maker](https://github.com/CherryProjects/translate-maker) available for the React too [react-translate-maker](https://github.com/CherryProjects/react-translate-maker).
+We already implemented webpack plugin for the locales modules named [translate-maker-loader](https://github.com/CherryProjects/translate-maker-loader) which you are able to use on the server too with the [babel-plugin-webpack-loaders](https://github.com/istarkov/babel-plugin-webpack-loaders).
+This loader also contains locale extractor (plugin). This plugin will extract all translations into the locale files. You can load this files with the adapter of the [translate-maker](https://github.com/CherryProjects/translate-maker) available for the React too [react-translate-maker](https://github.com/CherryProjects/react-translate-maker).
 
